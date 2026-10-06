@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+node_modules/
+.next/
+*.tsbuildinfo
+dist/
+
+.local/
+
+# Private environment variants and local databases
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+.DS_Store
